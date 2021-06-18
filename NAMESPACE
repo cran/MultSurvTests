@@ -1,0 +1,6 @@
+useDynLib(MultSurvTests)
+importFrom(Rcpp, evalCpp)
+importFrom("utils", "setTxtProgressBar", "txtProgressBar")
+importFrom("stats", "qnorm")
+importFrom("Rdpack", "reprompt")
+exportPattern("^[[:alpha:]]+")
